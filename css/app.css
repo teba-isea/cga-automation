@@ -50,6 +50,10 @@ img {
   background: #606163 !important;
 }
 
+.object-contain{
+  object-fit: contain !important;
+}
+
 .jumbotron {
   border: transparent;
   border-radius: 7px;
@@ -335,7 +339,11 @@ a.project:hover span {
 }
 
 .dropdown-menu {
-  z-index: 99999;
+  z-index: 9999;
+}
+
+.upper{
+  z-index: 99999 !important;
 }
 
 @media all and (min-width: 992px) {

@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
+
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="user-scale=no width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="user-scale=no width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
@@ -16,6 +14,7 @@
     <link rel="stylesheet" href="./css/app.css" />
     <title>CGA Automation</title>
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
@@ -27,14 +26,13 @@
         <div class="navbar-nav m-auto">
           <a class="nav-item nav-link active" href="./index.html"> Inicio </a>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="./servicios.html" data-toggle="dropdown">Servicios</a>
-            <ul class="dropdown-menu text-white">
-              <li><a class="dropdown-item" href="#"> Ingenieria de Proyectos</a></li>
-              <li><a class="dropdown-item" href="#"> Montajes</a></li>
-              <li><a class="dropdown-item" href="./suministros.html"> Suministros</a></li>
-              <li><a class="dropdown-item" href="#"> Mantenimiento</a></li>
-
-            </ul>
+            <a href="./servicios.html" class="nav-item nav-link upper">Servicios</a>
+              <ul class="dropdown-menu text-white">
+                <li><a class="dropdown-item" href="#"> Ingenieria de Proyectos</a></li>
+                <li><a class="dropdown-item" href="#"> Montajes</a></li>
+                <li><a class="dropdown-item" href="./suministros.html"> Suministros</a></li>
+                <li><a class="dropdown-item" href="#"> Mantenimiento</a></li>
+              </ul>
           </li>
           <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/">Proyectos</a>
           <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
@@ -47,134 +45,83 @@
       </div>
     </nav>
     <!-- /Navbar -->
-
     <!-- Hero -->
     <div class="row justify-content-center mx-0">
       <div class="d-sm-block d-md-none">
-        <img
-          src="./img/cga.png"
-          class="d-block carousel-img-sm"
-          alt="..."
-        />
-
+        <img src="./img/cga.png" class="d-block carousel-img-sm" alt="..." />
       </div>
       <div class="col-12 col-md-11 d-none d-md-block">
         <div class="jumbotron shadow-lg mt-4 p-0">
-          <div
-            class="carousel slide hero-carousel"
-            data-ride="carousel"
-            data-interval="3000"
-          >
-          <div class="hero text-center font-weight-bold">
-            <h1 class="text-white">CGA AUTOMATION S.A.S</h1>
-            <h3 class="text-warning">
-              Especialistas en Proteccion Contraincendio Garantia de
-              Seguridad
-            </h3>
-          </div>
+          <div class="carousel slide hero-carousel" data-ride="carousel" data-interval="3000">
+            <div class="hero text-center font-weight-bold">
+              <h1 class="text-white">CGA AUTOMATION S.A.S</h1>
+              <h3 class="text-warning">
+                Especialistas en Proteccion Contraincendio Garantia de
+                Seguridad
+              </h3>
+            </div>
             <div class="carousel-inner">
-
               <div class="carousel-item active">
-                <img
-                  src="./img/extintores.jpg"
-                  class="d-block carousel-img"
-                  alt="..."
-                />
+                <img src="./img/extintores.jpg" class="d-block carousel-img" alt="..." />
               </div>
               <div class="carousel-item">
-                <img
-                  src="./img/inspeccion.jpg"
-                  class="d-block carousel-img"
-                  alt="..."
-                />
+                <img src="./img/inspeccion.jpg" class="d-block carousel-img" alt="..." />
               </div>
               <div class="carousel-item">
-                <img
-                  src="./img/sistema.jpg"
-                  class="d-block carousel-img"
-                  alt="..."
-                /></div>
-              </div>
+                <img src="./img/sistema.jpg" class="d-block carousel-img" alt="..." /></div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
     <!-- /Hero -->
-
     <!-- about we -->
     <div class="bg-light p-3 mx-0">
       <div class="container text-dark text-center">
         <div class="row align-items-center">
           <div class="col-12 col-md-4">
             <svg class="icons">
-              <path
-                d="M96.117 57.583l-16.185-7.719c3.774-2.373 6.338-7.016 6.338-12.354 0-7.754-5.397-14.034-12.058-14.034-2.289 0-4.403.781-6.223 2.066a24.516 24.516 0 011.701 8.999c0 4.782-1.411 9.317-3.825 13.066a12.296 12.296 0 002.809 2.36l-.01.003 10.426 4.971c2.947 1.427 4.853 4.583 4.853 8.045v13.54h11.148c1.489 0 2.694-1.401 2.694-3.13V60.492c0-1.282-.659-2.42-1.668-2.909zM31.567 49.825a12.32 12.32 0 002.368-1.987c-2.514-3.781-3.972-8.401-3.972-13.297 0-3.271.646-6.37 1.777-9.17-1.76-1.172-3.773-1.895-5.948-1.895-6.666 0-12.062 6.28-12.062 14.034 0 5.425 2.651 10.12 6.524 12.457l-16.349 7.61c-1.02.479-1.691 1.629-1.691 2.915v12.903c0 1.729 1.209 3.13 2.694 3.13h10.805v-13.54c0-3.503 1.938-6.672 4.943-8.08l10.911-5.08z"
-              />
-              <path
-                d="M76.94 59.386l-14.077-6.715-5.952-2.84c2.6-1.637 4.711-4.165 6.093-7.21a19.543 19.543 0 001.749-8.081c0-1.642-.26-3.201-.623-4.706-1.771-7.293-7.466-12.665-14.302-12.665-6.708 0-12.316 5.181-14.196 12.266-.434 1.625-.733 3.315-.733 5.105 0 3.109.727 6.008 1.961 8.529 1.427 2.925 3.542 5.337 6.116 6.888l-5.702 2.654-14.534 6.768c-1.262.591-2.092 2.016-2.092 3.606V78.955c0 2.14 1.492 3.875 3.333 3.875h51.691c1.841 0 3.333-1.735 3.333-3.875V62.985c.001-1.584-.815-2.995-2.065-3.599z"
-              />
+              <path d="M96.117 57.583l-16.185-7.719c3.774-2.373 6.338-7.016 6.338-12.354 0-7.754-5.397-14.034-12.058-14.034-2.289 0-4.403.781-6.223 2.066a24.516 24.516 0 011.701 8.999c0 4.782-1.411 9.317-3.825 13.066a12.296 12.296 0 002.809 2.36l-.01.003 10.426 4.971c2.947 1.427 4.853 4.583 4.853 8.045v13.54h11.148c1.489 0 2.694-1.401 2.694-3.13V60.492c0-1.282-.659-2.42-1.668-2.909zM31.567 49.825a12.32 12.32 0 002.368-1.987c-2.514-3.781-3.972-8.401-3.972-13.297 0-3.271.646-6.37 1.777-9.17-1.76-1.172-3.773-1.895-5.948-1.895-6.666 0-12.062 6.28-12.062 14.034 0 5.425 2.651 10.12 6.524 12.457l-16.349 7.61c-1.02.479-1.691 1.629-1.691 2.915v12.903c0 1.729 1.209 3.13 2.694 3.13h10.805v-13.54c0-3.503 1.938-6.672 4.943-8.08l10.911-5.08z" />
+              <path d="M76.94 59.386l-14.077-6.715-5.952-2.84c2.6-1.637 4.711-4.165 6.093-7.21a19.543 19.543 0 001.749-8.081c0-1.642-.26-3.201-.623-4.706-1.771-7.293-7.466-12.665-14.302-12.665-6.708 0-12.316 5.181-14.196 12.266-.434 1.625-.733 3.315-.733 5.105 0 3.109.727 6.008 1.961 8.529 1.427 2.925 3.542 5.337 6.116 6.888l-5.702 2.654-14.534 6.768c-1.262.591-2.092 2.016-2.092 3.606V78.955c0 2.14 1.492 3.875 3.333 3.875h51.691c1.841 0 3.333-1.735 3.333-3.875V62.985c.001-1.584-.815-2.995-2.065-3.599z" />
             </svg>
             <h2>Quienes somos</h2>
             <p>
               CGA AUTOMATION S.A.S. Es una empresa de ingeniería que cuenta con un grupo de profesionales con vasta experiencia en el combate y protección de incendios mediante diseños de ingeniería y en cumplimiento de las normas nacionales e internacionales como las emitidas por la NFPA (National Fire Protection Association).
             </p>
             <p>
-              <a class="btn btn-outline-warning" href="#" role="button"
-                >Nuestro equipo »</a
-              >
+              <a class="btn btn-outline-warning" href="#" role="button">Nuestro equipo »</a>
             </p>
           </div>
-
           <div class="col-12 col-md-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icons"
-              width="100"
-              height="100"
-            >
-              <path
-                d="M91.532 39.844a1.997 1.997 0 00-1.888-1.343H61.482l-9.597-27.159a2 2 0 00-3.771 0l-9.598 27.159H10.357c-.851 0-1.609.539-1.891 1.343a2.003 2.003 0 00.651 2.226l21.986 17.409-9.84 27.846a2.003 2.003 0 002.917 2.382l25.818-15.488 25.818 15.488a2.003 2.003 0 002.918-2.382l-9.84-27.846L90.886 42.07a1.999 1.999 0 00.646-2.226z"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" class="icons" width="100" height="100">
+              <path d="M91.532 39.844a1.997 1.997 0 00-1.888-1.343H61.482l-9.597-27.159a2 2 0 00-3.771 0l-9.598 27.159H10.357c-.851 0-1.609.539-1.891 1.343a2.003 2.003 0 00.651 2.226l21.986 17.409-9.84 27.846a2.003 2.003 0 002.917 2.382l25.818-15.488 25.818 15.488a2.003 2.003 0 002.918-2.382l-9.84-27.846L90.886 42.07a1.999 1.999 0 00.646-2.226z" />
             </svg>
             <h2>Los mejores en</h2>
             <p>
               mantenimiento y servicios tales como diseño, instalación de sistemas contra incendio también contamos con un extenso catálogo de productos que incluye tanto equipos básicos y tan complejos como un sistema de supresión automática a base de agentes limpios.
             </p>
             <p>
-              <a class="btn btn-outline-warning mt-4" href="https://pereirago.myportfolio.com" role="button"
-                >Proyectos realizados »</a
-              >
+              <a class="btn btn-outline-warning mt-4" href="https://pereirago.myportfolio.com" role="button">Proyectos realizados »</a>
             </p>
           </div>
-
           <div class="col-12 col-md-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icons"
-              width="100"
-              height="100"
-            >
-              <path
-                d="M82.296 23.931a1.918 1.918 0 00-1.918-1.918h-8.074v-6.998c.004-.061.018-.118.018-.179a2.935 2.935 0 00-2.934-2.935c-.036 0-.07.009-.106.011v-.011H30.365v.054a2.925 2.925 0 00-2.696 2.911c0 .062.014.119.018.179v6.967H19.62a1.914 1.914 0 00-1.909 1.839h-.007v.073l-.001.007.001.007v26.038l-.001.004.001.009V50h.001c.01 1.051.863 1.9 1.916 1.9h8.328c1.354 9.109 8.197 16.422 17.069 18.449v12.746h-9.969a2.493 2.493 0 000 4.988v.017h29.894v-.017a2.493 2.493 0 000-4.988h-9.969V70.353c8.881-2.02 15.733-9.337 17.087-18.453h8.318c1.028 0 1.86-.81 1.909-1.825h.011V23.931h-.003zM27.687 46.913H22.69V27h4.997v19.913zm49.623 0h-5.007V27h5.007v19.913z"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" class="icons" width="100" height="100">
+              <path d="M82.296 23.931a1.918 1.918 0 00-1.918-1.918h-8.074v-6.998c.004-.061.018-.118.018-.179a2.935 2.935 0 00-2.934-2.935c-.036 0-.07.009-.106.011v-.011H30.365v.054a2.925 2.925 0 00-2.696 2.911c0 .062.014.119.018.179v6.967H19.62a1.914 1.914 0 00-1.909 1.839h-.007v.073l-.001.007.001.007v26.038l-.001.004.001.009V50h.001c.01 1.051.863 1.9 1.916 1.9h8.328c1.354 9.109 8.197 16.422 17.069 18.449v12.746h-9.969a2.493 2.493 0 000 4.988v.017h29.894v-.017a2.493 2.493 0 000-4.988h-9.969V70.353c8.881-2.02 15.733-9.337 17.087-18.453h8.318c1.028 0 1.86-.81 1.909-1.825h.011V23.931h-.003zM27.687 46.913H22.69V27h4.997v19.913zm49.623 0h-5.007V27h5.007v19.913z" />
             </svg>
             <h2>Nuestras metas</h2>
             <p>
-            Contribuir en la prevención y combate de incendios a través de soluciones integrales de ingeniería y distribución de equipos que satisfagan las necesidades de nuestros clientes y      
-            ser una empresa de ingeniería contra incendio líder a nivel nacional reconocida por la excelencia, profesionalismo, calidad, sentido humano y responsabilidad social.
+              Contribuir en la prevención y combate de incendios a través de soluciones integrales de ingeniería y distribución de equipos que satisfagan las necesidades de nuestros clientes y
+              ser una empresa de ingeniería contra incendio líder a nivel nacional reconocida por la excelencia, profesionalismo, calidad, sentido humano y responsabilidad social.
             </p>
             <p>
-              <a class="btn btn-outline-warning" href="#contacto" role="button"
-                >Contactanos Ya!</a
-              >
+              <a class="btn btn-outline-warning" href="#contacto" role="button">Contactanos Ya!</a>
             </p>
           </div>
         </div>
       </div>
     </div>
     <!-- /about we -->
-
     <!-- work demo -->
     <div class="bg-primary text-white p-2 mx-0">
       <div class="row align-items-center">
@@ -182,25 +129,16 @@
           <h2>Nuestro Trabajo</h2>
           <div class="col-12 col-md-8 mx-auto">
             <p>
-              Ponemos al servicio de la Industria de la Construcción más de 30 años de experiencia obtenidos en las industrias química, petroquímica y oíl & gas.  Con el cumplimiento de los más rigurosos estándares de las normativas nacionales e internacionales.
+              Ponemos al servicio de la Industria de la Construcción más de 30 años de experiencia obtenidos en las industrias química, petroquímica y oíl & gas. Con el cumplimiento de los más rigurosos estándares de las normativas nacionales e internacionales.
             </p>
           </div>
         </div>
         <div class="col-12 col-md-6 pb-3 mt-4 d-none d-md-block p-3">
-          <iframe
-            class="map shadow"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/mIaN1r3QMz0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <iframe class="map shadow" width="560" height="315" src="https://www.youtube.com/embed/mIaN1r3QMz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
     <!-- /work demo -->
-
     <!-- contact -->
     <div class="bg-warning text-white" id="contacto">
       <div class="row justify-content-center p-4">
@@ -209,27 +147,12 @@
             <div class="form-group">
               <h2>Contacténos</h2>
               <label>Nombre y Apellido</label>
-              <input
-                type="name"
-                class="form-control bg-light"
-                aria-describedby="fullName"
-              />
+              <input type="name" class="form-control bg-light" aria-describedby="fullName" />
               <label>Nombre de la Empresa (no obligatorio)</label>
-              <input
-                type="name"
-                class="form-control bg-light"
-                aria-describedby="fullName"
-              />
+              <input type="name" class="form-control bg-light" aria-describedby="fullName" />
               <label for="exampleInputEmail1">Correo Electronico</label>
-              <input
-                type="email"
-                class="form-control bg-light"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <small id="emailHelp" class="form-text text-muted"
-                >No compartiremos tu Correo electronico con nadie mas</small
-              >
+              <input type="email" class="form-control bg-light" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              <small id="emailHelp" class="form-text text-muted">No compartiremos tu Correo electronico con nadie mas</small>
             </div>
             <button type="submit" class="btn btn-block btn-dark">Enviar</button>
           </form>
@@ -237,82 +160,57 @@
         <div class="col-12 col-md-4 text-center">
           <div class="row-8 ">
             <h2>Ubícanos muy facil</h2>
-            <img
-              class="d-sm-block d-md-none mt-n1"
-              src="./img/location.png"
-              alt="direccion"
-              width="100%"
-              height="auto"
-            />
-            <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.0962114534395!2d-74.80229568597461!3d10.956104658849162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d892ea87d87%3A0x9d457d68c363cc11!2sCGA%20Automation%20S.A.S!5e0!3m2!1ses!2sve!4v1599353484376!5m2!1ses!2sve" 
-            class="d-none d-md-block"
-            width="400" 
-            height="300" 
-            frameborder="0" 
-            style="border:0;" 
-            allowfullscreen="" 
-            aria-hidden="false" 
-            tabindex="0"></iframe>
+            <img class="d-sm-block d-md-none mt-n1" src="./img/location.png" alt="direccion" width="100%" height="auto" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.0962114534395!2d-74.80229568597461!3d10.956104658849162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d892ea87d87%3A0x9d457d68c363cc11!2sCGA%20Automation%20S.A.S!5e0!3m2!1ses!2sve!4v1599353484376!5m2!1ses!2sve" class="d-none d-md-block" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
           <div class="row-2">
             <a href="https://www.facebook.com/CGA-Automation-SAS-102296184978074/" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-                <path
-                  d="M82.026 14H17.974A3.974 3.974 0 0014 17.974v64.053A3.974 3.974 0 0017.974 86h34.483V58.118h-9.383V47.252h9.383v-8.014c0-9.3 5.68-14.363 13.976-14.363 3.974 0 7.389.295 8.385.428v9.719l-5.754.003c-4.512 0-5.385 2.144-5.385 5.29v6.938h10.76l-1.401 10.866h-9.359V86h18.348A3.974 3.974 0 0086 82.026V17.974A3.974 3.974 0 0082.026 14z"
-                />
+                <path d="M82.026 14H17.974A3.974 3.974 0 0014 17.974v64.053A3.974 3.974 0 0017.974 86h34.483V58.118h-9.383V47.252h9.383v-8.014c0-9.3 5.68-14.363 13.976-14.363 3.974 0 7.389.295 8.385.428v9.719l-5.754.003c-4.512 0-5.385 2.144-5.385 5.29v6.938h10.76l-1.401 10.866h-9.359V86h18.348A3.974 3.974 0 0086 82.026V17.974A3.974 3.974 0 0082.026 14z" />
               </svg>
             </a>
             <a href="https://instagram.com/cga_automation" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
                 <g>
-                  <path
-                    d="M67.961 45.288c0 9.919-8.041 17.96-17.96 17.96s-17.96-8.041-17.96-17.96c0-2.795.657-5.43 1.795-7.788H14v42c0 3.85 3.15 7 7 7h58c3.85 0 7-3.15 7-7v-42H66.165a17.848 17.848 0 011.796 7.788zM79 13.5H21c-3.85 0-7 3.15-7 7v14h21.665c3.278-4.349 8.47-7.172 14.335-7.172s11.057 2.823 14.335 7.172H86v-14c0-3.85-3.15-7-7-7zM19.756 31.216H17.15V21.121a4.253 4.253 0 012.607-3.922v14.017zm4.27 0h-2.469V16.868h2.469v14.348zm4.269 0h-2.469V16.868h2.469v14.348zm4.266-10.095V31.216h-2.466V16.868h2.466v4.253zm49.79 5.842a4.252 4.252 0 01-4.251 4.253h-6.909a4.252 4.252 0 01-4.252-4.253v-5.842a4.252 4.252 0 014.252-4.253H78.1a4.251 4.251 0 014.251 4.253v5.842z"
-                  />
-                  <path
-                    d="M50.001 61.148c8.736 0 15.818-7.085 15.818-15.819 0-8.735-7.081-15.82-15.818-15.82-8.738 0-15.82 7.085-15.82 15.82 0 8.733 7.082 15.819 15.82 15.819zM50 32.725c6.96 0 12.604 5.643 12.604 12.604 0 6.96-5.643 12.604-12.604 12.604S37.396 52.29 37.396 45.329C37.397 38.367 43.04 32.725 50 32.725z"
-                  />
+                  <path d="M67.961 45.288c0 9.919-8.041 17.96-17.96 17.96s-17.96-8.041-17.96-17.96c0-2.795.657-5.43 1.795-7.788H14v42c0 3.85 3.15 7 7 7h58c3.85 0 7-3.15 7-7v-42H66.165a17.848 17.848 0 011.796 7.788zM79 13.5H21c-3.85 0-7 3.15-7 7v14h21.665c3.278-4.349 8.47-7.172 14.335-7.172s11.057 2.823 14.335 7.172H86v-14c0-3.85-3.15-7-7-7zM19.756 31.216H17.15V21.121a4.253 4.253 0 012.607-3.922v14.017zm4.27 0h-2.469V16.868h2.469v14.348zm4.269 0h-2.469V16.868h2.469v14.348zm4.266-10.095V31.216h-2.466V16.868h2.466v4.253zm49.79 5.842a4.252 4.252 0 01-4.251 4.253h-6.909a4.252 4.252 0 01-4.252-4.253v-5.842a4.252 4.252 0 014.252-4.253H78.1a4.251 4.251 0 014.251 4.253v5.842z" />
+                  <path d="M50.001 61.148c8.736 0 15.818-7.085 15.818-15.819 0-8.735-7.081-15.82-15.818-15.82-8.738 0-15.82 7.085-15.82 15.82 0 8.733 7.082 15.819 15.82 15.819zM50 32.725c6.96 0 12.604 5.643 12.604 12.604 0 6.96-5.643 12.604-12.604 12.604S37.396 52.29 37.396 45.329C37.397 38.367 43.04 32.725 50 32.725z" />
                 </g>
               </svg>
             </a>
             <a href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-                <path
-                  d="M80.667 14H19.315C16.381 14 14 16.325 14 19.188v61.617C14 83.672 16.381 86 19.315 86h61.352C83.603 86 86 83.672 86 80.805V19.188C86 16.325 83.603 14 80.667 14zM35.354 75.354H24.67V40.995h10.684v34.359zm-5.342-39.057a6.19 6.19 0 01-6.19-6.194 6.189 6.189 0 1112.379 0 6.194 6.194 0 01-6.189 6.194zM75.35 75.354H64.683V58.646c0-3.986-.078-9.111-5.551-9.111-5.558 0-6.405 4.341-6.405 8.822v16.998H42.052v-34.36h10.245v4.692h.146c1.426-2.7 4.91-5.549 10.106-5.549 10.806 0 12.802 7.114 12.802 16.369v18.847z"
-                />
+                <path d="M80.667 14H19.315C16.381 14 14 16.325 14 19.188v61.617C14 83.672 16.381 86 19.315 86h61.352C83.603 86 86 83.672 86 80.805V19.188C86 16.325 83.603 14 80.667 14zM35.354 75.354H24.67V40.995h10.684v34.359zm-5.342-39.057a6.19 6.19 0 01-6.19-6.194 6.189 6.189 0 1112.379 0 6.194 6.194 0 01-6.189 6.194zM75.35 75.354H64.683V58.646c0-3.986-.078-9.111-5.551-9.111-5.558 0-6.405 4.341-6.405 8.822v16.998H42.052v-34.36h10.245v4.692h.146c1.426-2.7 4.91-5.549 10.106-5.549 10.806 0 12.802 7.114 12.802 16.369v18.847z" />
               </svg>
             </a>
           </div>
           <div class="row-2 text-dark text-center">
-            <a href="tel:+573375488"><h5> O llame al +57-3375488</h5></a>
+            <a href="tel:+573375488">
+              <h5> O llame al +57-3375488</h5>
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!-- /contact -->
-
     <!-- Footer -->
     <footer class="bg-primary text-white p-2">
       <div class="container text-center">
-        <div class="col"><h5>CGA Automation SAS &copy; . copyright 2020</h5></div>
+        <div class="col">
+          <h5>CGA Automation SAS &copy; . copyright 2020</h5>
+        </div>
       </div>
     </footer>
     <!-- /Footer -->
-
     <a class="top-link hide" href="" id="js-top">
-      <svg
-        class="up-to-top"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 12 6"
-      >
+      <svg class="up-to-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
         <path d="M12 6H0l6-6z" />
       </svg>
       <span class="screen-reader-text">Back to top</span>
     </a>
-
     <script src="./js/jquery-3.5.1.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
+
 </html>
