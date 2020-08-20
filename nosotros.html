@@ -32,31 +32,31 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
-      <a class="navbar-brand font-weight-bold" href="./index.html"
-        ><span class="text-warning">CGA</span> Automation</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
+      <a class="navbar-brand font-weight-bold" href="./index.html"><span class="text-warning">CGA</span> Automation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">||||</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav m-auto">
           <a class="nav-item nav-link active" href="./index.html"> Inicio </a>
-          <a class="nav-item nav-link" href="./servicios.html">Servicios</a>
-          <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/"
-            >Proyectos</a
-          >
+          <div class="btn-group ">
+            <a href="./servicios.html" type="button" class="nav-item nav-link  btn-dark">Servicios</a>
+            <button type="button" class="nav-item nav-link btn-dark ml-n2 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ingenieria de Proyectos</a>
+              <a class="dropdown-item" href="#">Montajes</a>
+              <a class="dropdown-item" href="./suministros.html">Suministros de equipo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mantenimiento</a>
+            </div>
+          </div>
+          <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/">Proyectos</a>
           <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
         </div>
-        <a href="./index.html#contacto">
+        <a href="#contacto">
           <button type="button" class="btn btn-outline-warning">
             Contactanos
           </button>

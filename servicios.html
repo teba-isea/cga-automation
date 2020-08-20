@@ -1,28 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="user-scale=no width=device-width, initial-scale=1.0"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./icons/favicon-16x16.png"
-    />
+    <meta name="viewport" content="user-scale=no width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png" />
     <link rel="manifest" href="./site.webmanifest" />
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
@@ -30,33 +14,34 @@
     <link rel="stylesheet" href="./css/app.css" />
     <title>CGA Automation</title>
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
-      <a class="navbar-brand font-weight-bold" href="./index.html"
-        ><span class="text-warning">CGA</span> Automation</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <a class="navbar-brand font-weight-bold" href="./index.html"><span class="text-warning">CGA</span> Automation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">||||</span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav m-auto">
           <a class="nav-item nav-link active" href="./index.html"> Inicio </a>
-          <a class="nav-item nav-link" href="./servicios.html">Servicios</a>
-          <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/"
-            >Proyectos</a
-          >
+          <div class="btn-group ">
+            <a href="./servicios.html" type="button" class="nav-item nav-link  btn-dark">Servicios</a>
+            <button type="button" class="nav-item nav-link btn-dark ml-n2 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Ingenieria de Proyectos</a>
+              <a class="dropdown-item" href="#">Montajes</a>
+              <a class="dropdown-item" href="./suministros.html">Suministros de equipo</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mantenimiento</a>
+            </div>
+          </div>
+          <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/">Proyectos</a>
           <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
         </div>
-        <a href="./index.html#contacto">
+        <a href="#contacto">
           <button type="button" class="btn btn-outline-warning">
             Contactanos
           </button>
@@ -64,20 +49,14 @@
       </div>
     </nav>
     <!-- /Navbar -->
-
     <!-- Main -->
     <div class="container">
       <div class="row justify-content-center p-3">
         <h1>Nuestros Servicios</h1>
-
         <div class="card m-3 relieve">
           <div class="row no-gutters align-items-center">
             <div class="col-md-4 img-container">
-              <img
-                src="./img/ingenieria-proyectos.jpg"
-                class="card-img"
-                alt="..."
-              />
+              <img src="./img/ingenieria-proyectos.jpg" class="card-img" alt="..." />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -92,15 +71,10 @@
             </div>
           </div>
         </div>
-
         <div class="card m-3 relieve">
           <div class="row no-gutters align-items-center">
             <div class="col-md-4 img-container">
-              <img
-                src="./img/montaje.jpg"
-                class="card-img"
-                alt="..."
-              />
+              <img src="./img/montaje.jpg" class="card-img" alt="..." />
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -112,62 +86,45 @@
             </div>
           </div>
         </div>
-      
-
-    <div class="card m-3 relieve">
-      <div class="row no-gutters align-items-center">
-        <div class="col-md-4 img-container">
-          <img
-            src="./img/extintores2.jpg"
-            class="card-img"
-            alt="..."
-          />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Suministros de equipos</h5>
-            <p class="card-text">
-              contamos con un extenso catálogo de productos que incluye tanto equipos básicos y tan complejos como un sistema de supresión automática a base de agentes limpios.
-            </p>
+        <div class="card m-3 relieve">
+          <div class="row no-gutters align-items-center">
+            <div class="col-md-4 img-container">
+              <img src="./img/extintores2.jpg" class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Suministros de equipos</h5>
+                <p class="card-text">
+                  contamos con un extenso catálogo de productos que incluye tanto equipos básicos y tan complejos como un sistema de supresión automática a base de agentes limpios.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  
-  
-
-  <div class="card m-3 relieve">
-    <div class="row no-gutters align-items-center">
-      <div class="col-md-4 img-container">
-        <img
-          src="./img/mantenimiento.jpg"
-          class="card-img"
-          alt="..."
-        />
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Mantenimiento</h5>
-          <p class="card-text">
-            Para mantener en perfecto estado de funcionamiento y garantizar la permanente disponibilidad de las prestaciones de los equipos de tus instalaciones
-          </p>
+        <div class="card m-3 relieve">
+          <div class="row no-gutters align-items-center">
+            <div class="col-md-4 img-container">
+              <img src="./img/mantenimiento.jpg" class="card-img" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Mantenimiento</h5>
+                <p class="card-text">
+                  Para mantener en perfecto estado de funcionamiento y garantizar la permanente disponibilidad de las prestaciones de los equipos de tus instalaciones
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container bg-primary shadow m-4 p-3 w-80">
+          <h2>Que esperas para contactarnos ahora mismo?</h2>
+          <a href="./index.html#contacto"><button class="btn btn-block btn-warning">Contactar Ya!</button></a>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container bg-primary shadow m-4 p-3 w-80">
-    <h2>Que esperas para contactarnos ahora mismo?</h2>
-    <a href="./index.html#contacto"
-      ><button class="btn btn-block btn-warning">Contactar Ya!</button></a
-    >
-  </div>
-</div>
-</div>
-</div>
-</div>
-
+    </div>
+    </div>
     <!-- /Main -->
-
     <!-- Footer -->
     <footer class="bg-primary text-white p-2">
       <div class="container text-center">
@@ -177,21 +134,16 @@
       </div>
     </footer>
     <!-- /Footer -->
-
     <a class="top-link hide" href="" id="js-top">
-      <svg
-        class="up-to-top"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 12 6"
-      >
+      <svg class="up-to-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
         <path d="M12 6H0l6-6z" />
       </svg>
       <span class="screen-reader-text">Back to top</span>
     </a>
-
     <script src="./js/jquery-3.5.1.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script>
   </body>
+
 </html>

@@ -29,7 +29,7 @@ img {
   right: 0;
   top: 0;
   background-color: rgba(65, 65, 65, 0.6);
-  z-index: 9999999;
+  z-index: 9999;
 }
 
 .hero h1 {
@@ -250,8 +250,13 @@ a.project:hover span{color:#fff; visibility:visible;
 }
 
 .img-container,.card-img-top{
-  object-fit: cover;
+  object-fit: fill;
   overflow: hidden !important;
+}
+
+.card-img-top img{
+  width: 85%;
+  height: 85%;
 }
 
 .img-nosotros{
@@ -262,6 +267,62 @@ a.project:hover span{color:#fff; visibility:visible;
 
 .card{
   border: 1px solid transparent;
-  box-shadow: rgba(26, 26, 26, 0.5) 10px 10px 10px 1px !important;
+  box-shadow: rgba(26, 26, 26, 0.5) -3px 5px 10px 1px !important;
 }
 
+.h-25{
+  height: 25% !important;
+}
+.product-card{
+  margin: 0.6rem;
+  background: #25272B;
+  overflow: hidden;
+}
+
+
+
+.product-card-img img{
+  margin-left: 1rem;
+  object-fit: contain!important;
+  height:14rem !important;
+}
+
+.product-card{
+  max-height: 16rem;
+  transition: all .3s ease
+
+  
+}
+
+.product-card:hover{
+  transform: scale(1.09);
+  z-index: 99999;
+}
+
+@media (max-width:570px){
+  .product-card-img{
+    margin: 0;
+  }
+
+  .product-card{
+    max-height: none;
+    margin-bottom:2rem;
+  }
+
+  .row.p-5 {
+    padding: 1rem !important;
+  }
+
+  }
+
+.btn-dark:active{
+  background:none !important;
+
+}
+.nav-link:focus{
+  background: none !important;
+}
+
+.dropdown-menu{
+  z-index: 99999;
+}
