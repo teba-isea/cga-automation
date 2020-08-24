@@ -249,9 +249,14 @@ a.project:hover span{color:#fff; visibility:visible;
   height: 240px;
 }
 
-.img-container{
+.img-container,.card-img-top{
   object-fit: cover;
   overflow: hidden !important;
+}
+
+.img-nosotros{
+  overflow:hidden;
+  border-radius:0px 0px 100px 0px;
 }
 
 
