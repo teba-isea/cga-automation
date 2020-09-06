@@ -15,7 +15,7 @@ img {
 }
 
 .carousel-img-sm {
-  width: 120vw;
+  width: 95vw;
   height: auto;
   overflow: hidden !important;
   object-fit: contain;
