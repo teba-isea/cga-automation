@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
       <a class="navbar-brand font-weight-bold" href="./index.html"><span class="text-warning">CGA</span> Automation</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">||||</span>
@@ -26,19 +26,16 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav m-auto">
           <a class="nav-item nav-link active" href="./index.html"> Inicio </a>
-          <div class="btn-group ">
-            <a href="./servicios.html" type="button" class="nav-item nav-link  btn-dark">Servicios</a>
-            <button type="button" class="nav-item nav-link btn-dark ml-n2 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Ingenieria de Proyectos</a>
-              <a class="dropdown-item" href="#">Montajes</a>
-              <a class="dropdown-item" href="./suministros.html">Suministros de equipo</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Mantenimiento</a>
-            </div>
-          </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./servicios.html" data-toggle="dropdown">Servicios</a>
+            <ul class="dropdown-menu text-white">
+              <li><a class="dropdown-item" href="#"> Ingenieria de Proyectos</a></li>
+              <li><a class="dropdown-item" href="#"> Montajes</a></li>
+              <li><a class="dropdown-item" href="./suministros.html"> Suministros</a></li>
+              <li><a class="dropdown-item" href="#"> Mantenimiento</a></li>
+
+            </ul>
+          </li>
           <a class="nav-item nav-link" href="https://proyectoscga20.myportfolio.com/">Proyectos</a>
           <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
         </div>
