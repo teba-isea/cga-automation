@@ -304,7 +304,7 @@ a.project:hover span {
 }
 
 .product-card {
-  max-height: 16rem;
+  max-height: 30rem;
   transition: all .3s ease
 }
 
@@ -346,6 +346,15 @@ a.project:hover span {
   z-index: 99999 !important;
 }
 
+.service-item{
+  text-decoration: none !important;
+  transition: all .3s ease;
+}
+
+.service-item:hover{
+  transform: scale(1.03);
+}
+
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
@@ -363,3 +372,5 @@ a.project:hover span {
     margin-top: 0;
   }
 }
+
+
