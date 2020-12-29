@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
-		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/portafolio.css" />
     <title>Portafolio - CGA Automation</title>
   </head>
   <body>
-
-		<!-- Navegacion -->
-		<nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
-      <a class="navbar-brand font-weight-bold" href="#"
+    <!-- Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary mx-0">
+      <a class="navbar-brand font-weight-bold" href="./index.html"
         ><span class="text-warning">CGA</span> Automation</a
       >
       <button
@@ -30,21 +29,53 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav m-auto">
-          <a class="nav-item nav-link active" href="#"> Inicio </a>
-          <a class="nav-item nav-link" href="#">Servicios</a>
-          <a class="nav-item nav-link" href="#">Proyectos</a>
-          <a class="nav-item nav-link" href="#">Nosotros</a>
+          <a class="nav-item nav-link active" href="./index.html"> Inicio </a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="./servicios.html"
+              data-toggle="dropdown"
+              >Servicios</a
+            >
+            <ul class="dropdown-menu text-white">
+              <li>
+                <a class="dropdown-item" href="./ingenieria-proyectos.html">
+                  Ingenieria de Proyectos</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./construccion.html">
+                  Construccion</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./suministros.html">
+                  Suministros</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./mantenimiento.html">
+                  Mantenimiento</a
+                >
+              </li>
+            </ul>
+          </li>
+          <a class="nav-item nav-link" href="https://cgaportafolio.netlify.app/"
+            >Proyectos</a
+          >
+          <a class="nav-item nav-link" href="./nosotros.html">Nosotros</a>
         </div>
-        <button type="button" class="btn btn-outline-warning">
-          Contactanos
-        </button>
+        <a href="./index.html#contacto">
+          <button type="button" class="btn btn-outline-warning">
+            Contactanos
+          </button>
+        </a>
       </div>
     </nav>
-		<!-- /Navegacion -->
+    <!-- /Navegacion -->
 
     <div class="contenedor text-white pb-3">
-
-				<h1 class="text-center m-4">Nuestros Ultimos Proyectos </h1>
+      <h1 class="text-center m-4">Nuestros Ultimos Proyectos</h1>
 
       <section class="grid" id="grid">
         <div
@@ -155,15 +186,17 @@
         </div>
         <p class="descripcion"></p>
       </section>
-		</div>
-	<!-- footer -->
-		<footer class="bg-primary text-white p-2">
+    </div>
+    <!-- footer -->
+    <footer class="bg-primary text-white p-2">
       <div class="container text-center">
-        <div class="col"><h5>CGA Automation SAS &copy; . copyright 2020</h5></div>
+        <div class="col">
+          <h5>CGA Automation SAS &copy; . copyright 2020</h5>
+        </div>
       </div>
     </footer>
-	<!-- /footer -->
-	<script src="./js/jquery-3.5.1.js"></script>
+    <!-- /footer -->
+    <script src="./js/jquery-3.5.1.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/web-animations.min.js"></script>
