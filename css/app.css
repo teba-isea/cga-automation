@@ -373,4 +373,20 @@ a.project:hover span {
   }
 }
 
+.hero-services{
+  position: relative;
+  background-position: center; 
+  background-repeat: no-repeat;
+  object-fit: contain;
+  min-height:25rem;
+}
 
+.hero-services h1{
+  display:block;
+  position: absolute;
+  left:0;
+  right:0;
+  text-align:center;
+  margin:auto 5rem;
+  text-shadow: black 3px 1px 0.8rem;
+}
